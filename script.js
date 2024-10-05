@@ -11,11 +11,16 @@ const loadAllPost = async (category) => {
     //     console.log(`https://openapi.programming-hero.com/api/retro-forum/posts`)
     // }
 
-    
+
     const res = await fetch(`https://openapi.programming-hero.com/api/retro-forum/posts${category?`?category=${category}`:''}`)
     const data = await res.json();
-    console.log(data.posts)
+    displayAllPost(data.posts)
 }
+
+const displayAllPost =(posts) =>{
+    console.log(posts)
+}
+
 loadAllPost();
 
 const handleSearchByCategory = () => {
