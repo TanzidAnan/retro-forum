@@ -57,7 +57,7 @@ const displayAllPost = (posts) => {
               </div>
             </div>
           </div>
-          <div class="opacity-100">
+          <div class="opacity-100 btn px-5">
             <button id="addToList" onclick="markAsRead('${post.description}','${post.view_count}')" data-post=${JSON.stringify(post)} class="addToList btn btn-circle bg-green-500 btn-sm">
             <i class="fa-solid fa-landmark text-white"></i>
            
