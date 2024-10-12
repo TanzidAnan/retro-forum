@@ -1,3 +1,7 @@
+const AddButton =() =>{
+  window.location.href="add.html";
+}
+
 const loadAllPost = async (category) => {
     console.log(category)
     console.log(`https://openapi.programming-hero.com/api/retro-forum/posts${category ? `?category=${category}` : ''}`)
