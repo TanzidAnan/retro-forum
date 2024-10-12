@@ -76,7 +76,7 @@ const markAsRead = (description, view_count) => {
     const div = document.createElement('div');
     div.innerHTML = `
         <div class="flex justify-between px-5 lg:p-3 bg-white rounded-2xl items-center gap-3">
-            <div class="lg:w-4/5 w-11/12">
+            <div class="lg:w-4/5 w-11/12 ">
                 <p>${description}</p>
                 <div class="lg:w-full w-4/12 flex justify-between gap-5 mt-3">
                 <p><i class="fa-solid fa-cart-shopping"></i>${view_count} </p>
