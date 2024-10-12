@@ -27,7 +27,7 @@ const displayAllPost = (posts) => {
         <div class="p-6 lg:p-12 flex lg:flex-row flex-col items-center lg:items-start
       bg-slate-300 rounded-3xl">
       <div class="indicator ">
-        <span class="indicator-item badge  ${post.isActive ? "bg-green-400" : "bg-red-300"}"></span>
+        
         <div class="avatar">
           <div class="w-24 rounded-xl">
             <img src=${post.image} alt="">
