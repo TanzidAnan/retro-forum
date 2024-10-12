@@ -28,8 +28,8 @@ const displayAllPost = (posts) => {
       bg-slate-300 rounded-3xl">
       <div class="indicator ">
         
-        <div class="avatar">
-          <div class="w-24 rounded-xl">
+        <div class="avatar mr-8">
+          <div class="w-24 rounded-full">
             <img src=${post.image} alt="">
           </div>
         </div>
